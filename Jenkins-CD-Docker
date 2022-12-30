@@ -4,7 +4,7 @@ pipeline {
     }
     
     environment {
-    dockerimagename = "vijaylokesh/my-tomcat:latest"
+    dockerimagename = "girishh222/my-tomcat:latest"
     registry_name = "registry.hub.docker.com"
     registry_url = "https://registry.hub.docker.com"
     registryCredential = 'dockerhub'
