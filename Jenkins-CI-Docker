@@ -1,8 +1,8 @@
 pipeline {
   environment {
-    dockerimagename = "girishh222/girish5/my-tomcat"
+    dockerimagename = "vijaylokesh/my-tomcat"
     registry_url = "https://registry.hub.docker.com"
-    registryCredential = 'girishh222/girish5/'
+    registryCredential = 'my-docker-private-id'
     }
     tools {
         maven 'maven3.8.6'
